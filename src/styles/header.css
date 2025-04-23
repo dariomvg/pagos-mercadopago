@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 999;
+}
+
+.top {
+  background-color: transparent;
+
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.link-nav {
+  font-size: 16px;
+  font-weight: 500;
+  color: #202020;
+  text-decoration: none;
+}
+
+.link-nav:hover {
+  color: #000;
+  transition: color 0.5s;
+}
+
+.link-nav-github {
+    text-decoration: none;
+}
+
+
+@media (max-width: 425px) {
+
+    .header {
+        justify-content: space-between;
+    }
+}
