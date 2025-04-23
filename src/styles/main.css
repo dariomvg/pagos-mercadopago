@@ -9,7 +9,7 @@
     flex-direction: column;
    justify-content: center;
    gap: 18px;
-   background-image: linear-gradient(to top, #3bb7ef, #8ec5f7, #c1d6fa, #e5e9fc, #ffffff);
+   background-image: linear-gradient(to top, #3bb7ef 2%, #8ec5f7, #c1d6fa, #e5e9fc, #ffffff);
    padding: 10px;
 }
 

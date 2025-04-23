@@ -14,7 +14,7 @@ export default function Main() {
         </h1>
         <div>
           <p className="detail-section-main">
-            Agrega estos módulos para permitir que tus clientes(usuarios) paguen
+            Agrega estos módulos para permitir que tus clientes paguen
             por tu servicio, producto, etc
           </p>
           <p className="detail-section-main">
