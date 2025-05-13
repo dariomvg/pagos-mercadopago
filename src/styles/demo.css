@@ -18,15 +18,12 @@
 .picture-product {
     border-radius: 5px;
     box-shadow: 0 8px 16px 0px rgba(0, 0, 0, 0.292);
-
 }
 
 .container-product-demo {
     width: 100%;
     background-color: #fff;
-    
     border-radius: 5px;
-
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -92,4 +89,21 @@
     border-color: transparent;
     color: #fff;
     transition: .5s;
+}
+
+
+
+@media (max-width: 768px) {
+    .main-demo {
+        flex-direction: column;
+        padding: 50px 10px 20px 10px;
+    }
+    .section-product-demo {
+        flex-direction: column;
+    }
+
+    .picture-product {
+        width: 200px;
+        height: 200px;
+    }
 }

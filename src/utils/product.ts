@@ -1,16 +1,17 @@
-import image from "../assets/images/laptop.webp";
-import { Product } from "../types/types";
+import { Product } from "../types/product.types";
 
 export const product: Product = {
   id: "oausg187561-ajsgfbas-26gaga-ftybv834900-jftqvvjn",
-  picture: image,
-  name: "Laptop Dell XPS 15",
-  description: "La Dell XPS 15 es una laptop premium con cuerpo de aluminio, pantalla 4K ultra nítida, procesador Intel i7 y gráficos dedicados. Elegante y poderosa, es ideal para profesionales",
+  picture_url:
+    "https://res.cloudinary.com/duyiov4s1/image/upload/v1740510856/ecommerce/laptop.webp",
+  title: "Laptop Dell XPS 15",
+  quantity: 1,
+  description:
+    "La Dell XPS 15 es una laptop premium con cuerpo de aluminio, pantalla 4K ultra nítida, procesador Intel i7 y gráficos dedicados. Elegante y poderosa, es ideal para profesionales",
   details: [
     {
       id: 0,
-      detail:
-        "1. Procesador: Intel Core i7-12700H de 12ª generación",
+      detail: "1. Procesador: Intel Core i7-12700H de 12ª generación",
     },
     {
       id: 1,
@@ -19,8 +20,7 @@ export const product: Product = {
     },
     {
       id: 2,
-      detail:
-        "3. Almacenamiento: SSD NVMe de 1 TB",
+      detail: "3. Almacenamiento: SSD NVMe de 1 TB",
     },
     {
       id: 3,
@@ -34,11 +34,10 @@ export const product: Product = {
     },
     {
       id: 5,
-      detail:
-        "6. Sistema Operativo: Windows 11 Pro. Más seguridad y funciones",
+      detail: "6. Sistema Operativo: Windows 11 Pro. Más seguridad y funciones",
     },
   ],
-  price: 100000,
+  unit_price: 10000,
   stock: 20,
   category: "Electronics",
 };

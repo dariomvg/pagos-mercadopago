@@ -9,13 +9,3 @@ export type Detail = {
   detail: string;
 };
 
-export type Product = {
-  id: string;
-  picture: string;
-  name: string;
-  details: Detail[];
-  price: number;
-  stock: number;
-  category: string;
-  description: string;
-};

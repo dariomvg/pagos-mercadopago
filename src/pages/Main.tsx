@@ -41,7 +41,7 @@ export default function Main() {
       </section>
       <section className="section-docs">
         <h3 className="title-section-docs">
-          Comienza aprender el uso y como implementarlo en tu proyecto
+          Comienza a agregar pagos online a tus proyectos personales
         </h3>
         <Link to="/docs" className="link-section-docs">
           Documentación
