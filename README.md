@@ -1,10 +1,1 @@
-Puntos a tener en cuenta para construir: 
-
-
-
-
-
-
-
-
-
+Agrega pagos tus proyectos personales con mercado pago
